@@ -17,10 +17,12 @@ namespace application {
 
         struct Vertex {
             float position[3];
+            float color[3];
         };
 
         struct GlobalUniforms {
             float matrix[4][4];
+            float color[4];
         };
 
         struct Triangle {
@@ -136,6 +138,7 @@ namespace application {
         glm::vec3 position = glm::vec3(0.0f);
         glm::vec3 rotation = glm::vec3(0.0f);  
         glm::vec3 scale = glm::vec3(1.0f);
+        glm::vec3 color = glm::vec3(1.0f, 1.0f, 1.0f);  
 
         bool animate = false;
         bool is_paused = false;
@@ -173,6 +176,12 @@ namespace application {
             v.position[0] = p.x;
             v.position[1] = p.y;
             v.position[2] = p.z;
+
+            // Процедурные цвета: нормализация позиции из [-0.8, 0.8] в [0, 1]
+            v.color[0] = (p.x + 1.0f) * 0.5f;
+            v.color[1] = (p.y + 1.0f) * 0.5f;
+            v.color[2] = (p.z + 1.0f) * 0.5f;
+
             vertices.push_back(v);
         }
 
@@ -262,7 +271,7 @@ namespace application {
             return false;
         }
 
-        // Инициализация MVP
+
         glm::mat4 identity = glm::mat4(1.0f);
         memcpy(vk_uniform_buffer_global_memory->matrix, &identity[0][0], sizeof(float) * 16);
 
@@ -362,18 +371,28 @@ namespace application {
             .stride = sizeof(Vertex),
             .inputRate = VK_VERTEX_INPUT_RATE_VERTEX,
         };
-        const VkVertexInputAttributeDescription vertex_attribute = {
-            .location = 0,
-            .binding = 0,
-            .format = VK_FORMAT_R32G32B32_SFLOAT,
-            .offset = offsetof(Vertex, position),
+
+        const VkVertexInputAttributeDescription vertex_attributes[2] = {
+            {
+                .location = 0,
+                .binding = 0,
+                .format = VK_FORMAT_R32G32B32_SFLOAT,
+                .offset = offsetof(Vertex, position),
+            },
+            {
+                .location = 1,
+                .binding = 0,
+                .format = VK_FORMAT_R32G32B32_SFLOAT,
+                .offset = offsetof(Vertex, color),
+            },
         };
+
         const VkPipelineVertexInputStateCreateInfo vertex_input = {
             .sType = VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO,
             .vertexBindingDescriptionCount = 1,
             .pVertexBindingDescriptions = &vertex_binding,
-            .vertexAttributeDescriptionCount = 1,
-            .pVertexAttributeDescriptions = &vertex_attribute,
+            .vertexAttributeDescriptionCount = 2,
+            .pVertexAttributeDescriptions = vertex_attributes,
         };
 
         const VkPipelineInputAssemblyStateCreateInfo input_assembly = {
@@ -509,6 +528,11 @@ namespace application {
 
         ImGui::Text("Scale");
         ImGui::DragFloat3("##scale", &scale.x, 0.01f, 0.1f, 3.0f);
+
+        ImGui::Separator();
+        ImGui::Text("Color");
+        ImGui::ColorEdit3("##color", &color.x, ImGuiColorEditFlags_Float);
+
         ImGui::Separator();
         ImGui::Text("Animation");
         ImGui::Checkbox("Enable", &animate);
@@ -522,6 +546,8 @@ namespace application {
         }
 
         ImGui::End();
+
+        // Анимация
         glm::vec3 anim_position = position;
         glm::vec3 anim_rotation = rotation;
 
@@ -538,9 +564,9 @@ namespace application {
 
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::translate(model, anim_position);
-        model = glm::rotate(model, glm::radians(rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
-        model = glm::rotate(model, glm::radians(rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
-        model = glm::rotate(model, glm::radians(rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
+        model = glm::rotate(model, glm::radians(anim_rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
+        model = glm::rotate(model, glm::radians(anim_rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
+        model = glm::rotate(model, glm::radians(anim_rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
         model = glm::scale(model, scale);
 
         glm::mat4 view = glm::lookAt(
@@ -564,6 +590,9 @@ namespace application {
 
         glm::mat4 mvp = proj * view * model;
         memcpy(vk_uniform_buffer_global_memory->matrix, &mvp[0][0], sizeof(float) * 16);
+
+        memcpy(vk_uniform_buffer_global_memory->color, &color, sizeof(float) * 3);
+        vk_uniform_buffer_global_memory->color[3] = 1.0f;
     }
 
     void render(const graphics::internal::FrameData& fd) {
