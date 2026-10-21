@@ -14,7 +14,9 @@ layout(std140, set = 0, binding = 0) uniform SceneUniforms {
     vec4 directional_light_direction;
     vec4 directional_light_color;
     vec4 ambient_light;
-    float padding[4];
+    uint point_light_count;
+    uint spot_light_count;
+    float padding[2];
 } scene;
 
 layout(std140, set = 1, binding = 0) uniform ModelUniforms {
