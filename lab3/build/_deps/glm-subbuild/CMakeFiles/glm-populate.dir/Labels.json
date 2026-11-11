@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/87ff500bfcb0602feb429f715cf383a2/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/978178097c5e3e5dc29b862b8d1faaa8/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glm-subbuild/CMakeFiles/406aaacd32a3e483490956eb804b4bfc/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

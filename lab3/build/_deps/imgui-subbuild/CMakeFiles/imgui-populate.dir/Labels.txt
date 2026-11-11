@@ -1,0 +1,14 @@
+# Target labels
+ imgui-populate
+# Source files and their labels
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/b9d5467e7dbce392df9123ed9991db1f/imgui-populate.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/1649a336fcbbab08ea343502ef7a0e66/imgui-populate-complete.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-build.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-configure.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-download.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-install.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-mkdir.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-patch.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-test.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-update.rule

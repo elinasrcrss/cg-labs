@@ -1,0 +1,14 @@
+# Target labels
+ vulkanmemoryallocator-populate
+# Source files and their labels
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/97c3bf52d6de3d412cda4bb1f7d65e7f/vulkanmemoryallocator-populate.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/fc59f2f7c5a1f6201290fc2a7a0a5e71/vulkanmemoryallocator-populate-complete.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-build.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-configure.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-download.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-install.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-mkdir.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-patch.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-test.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/36f227aafc9ce65db8836dea22843f37/vulkanmemoryallocator-populate-update.rule

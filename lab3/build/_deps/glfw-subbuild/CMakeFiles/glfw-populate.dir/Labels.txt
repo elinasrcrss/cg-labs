@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/c712f9557bf8200282d144ed6c741dd7/glfw-populate.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/ae10837e1147662fb17270ea1cd45142/glfw-populate-complete.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-build.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-configure.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-download.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-install.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-mkdir.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-patch.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-test.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-update.rule

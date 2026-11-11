@@ -1,0 +1,38 @@
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\CMAKEFILES\626990B411647B17AA7A626E85D50465\SHADER.FRAG.SPV.RULE
+setlocal
+C:\VulkanSDK\1.4.321.1\Bin\glslc.exe C:/Users/Huawei/source/repos/cg-labs-clone/lab3/shaders/shader.frag -o C:/Users/Huawei/source/repos/cg-labs-clone/lab3/shaders/shader.frag.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\CMAKEFILES\626990B411647B17AA7A626E85D50465\SHADER.VERT.SPV.RULE
+setlocal
+C:\VulkanSDK\1.4.321.1\Bin\glslc.exe C:/Users/Huawei/source/repos/cg-labs-clone/lab3/shaders/shader.vert -o C:/Users/Huawei/source/repos/cg-labs-clone/lab3/shaders/shader.vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\CMAKEFILES\F2656416D95CA20CCEDECC0A61E22131\SHADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Huawei/source/repos/cg-labs-clone/lab3 -BC:/Users/Huawei/source/repos/cg-labs-clone/lab3/build --check-stamp-file C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\CMakeFiles\626990b411647b17aa7a626e85d50465\shader.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\CMakeFiles\626990b411647b17aa7a626e85d50465\shader.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\CMakeFiles\f2656416d95ca20ccedecc0a61e22131\shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\CMakeFiles\shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F00E3D46-53B1-384E-9316-3A4F7FEDF259}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\CMakeFiles\8b29a11a12e34f9912697c7956032858\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F00E3D46-53B1-384E-9316-3A4F7FEDF259}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,150 @@
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/tmp/vk-bootstrap-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/tmp/vk-bootstrap-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/tmp/vk-bootstrap-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\A7BA9E0B9ACD4812918C07520294DCD6\VK-BOOTSTRAP-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\07156AA64AAFAB5F4D6E955AB3D9886D\VK-BOOTSTRAP-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/Debug/vk-bootstrap-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/Debug/vk-bootstrap-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKEFILES\238F0B7B9B5E6CFBE617EA781CC41425\VK-BOOTSTRAP-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUAWEI\SOURCE\REPOS\CG-LABS-CLONE\LAB3\BUILD\_DEPS\VK-BOOTSTRAP-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild -BC:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild --check-stamp-file C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

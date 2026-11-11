@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/b9d5467e7dbce392df9123ed9991db1f/imgui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/1649a336fcbbab08ea343502ef7a0e66/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/imgui-subbuild/CMakeFiles/a84cdd1f831656dd4d7ceb521c192e2e/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\d37294f066726066599084694d19356b\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\ae10837e1147662fb17270ea1cd45142\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\c712f9557bf8200282d144ed6c741dd7\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{09507D50-964D-3D88-9229-31C2563A8F36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

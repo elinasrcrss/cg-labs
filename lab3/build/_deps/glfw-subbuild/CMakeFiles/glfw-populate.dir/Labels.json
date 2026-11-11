@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/c712f9557bf8200282d144ed6c741dd7/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/ae10837e1147662fb17270ea1cd45142/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/glfw-subbuild/CMakeFiles/d37294f066726066599084694d19356b/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

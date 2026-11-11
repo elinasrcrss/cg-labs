@@ -1,0 +1,14 @@
+# Target labels
+ vk-bootstrap-populate
+# Source files and their labels
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/238f0b7b9b5e6cfbe617ea781cc41425/vk-bootstrap-populate.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/07156aa64aafab5f4d6e955ab3d9886d/vk-bootstrap-populate-complete.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-build.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-configure.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-download.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-install.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-mkdir.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-patch.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-test.rule
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vk-bootstrap-subbuild/CMakeFiles/a7ba9e0b9acd4812918c07520294dcd6/vk-bootstrap-populate-update.rule

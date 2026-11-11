@@ -1,0 +1,11 @@
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\source\main.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\main.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\source\graphics_internal.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\graphics_internal.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\source\application.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\application.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\source\upload.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\upload.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\imgui-src\backends\imgui_impl_glfw.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\imgui_impl_glfw.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\imgui-src\backends\imgui_impl_vulkan.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\imgui_impl_vulkan.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\imgui-src\imgui.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\imgui.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\imgui-src\imgui_draw.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\imgui_draw.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\imgui-src\imgui_tables.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\imgui_tables.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\imgui-src\imgui_widgets.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\imgui_widgets.obj
+C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\imgui-src\imgui_demo.cpp;C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\vulkan-starter-app.dir\Debug\imgui_demo.obj

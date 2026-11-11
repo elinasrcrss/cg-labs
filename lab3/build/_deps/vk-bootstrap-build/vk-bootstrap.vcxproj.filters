@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-src\src\VkBootstrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-src\src\VkBootstrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-src\src\VkBootstrapDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Huawei\source\repos\cg-labs-clone\lab3\build\_deps\vk-bootstrap-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4E40C58E-2788-3487-B8F0-F16A5C94C29D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A64EF3AB-2E8D-3FCD-A1C5-CE29B409B75E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

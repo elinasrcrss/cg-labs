@@ -1,0 +1,3 @@
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate.dir
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Huawei/source/repos/cg-labs-clone/lab3/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/ZERO_CHECK.dir
